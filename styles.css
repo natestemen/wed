@@ -1,0 +1,69 @@
+body {
+  font-family: "Courier New", monospace;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  color: #fff;
+}
+
+header {
+  background-color: #111;
+  color: #ff5757; /* Red as the main accent color */
+  text-align: center;
+  padding: 20px;
+  border-bottom: 2px solid #ff5757; /* Red as the main accent color */
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.date {
+  margin: 10px 0 0;
+}
+
+section {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #111;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  border: 1px solid #333;
+  border-radius: 8px;
+}
+
+.venue,
+.details {
+  border: 2px solid #ff5757; /* Red as the main accent color */
+  border-radius: 8px;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #111;
+  color: #ff5757; /* Red as the main accent color */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 2px solid #ff5757; /* Red as the main accent color */
+}
+
+.countdown {
+  text-align: center;
+}
+
+#countdown-timer {
+  font-size: 2em;
+  color: #ff5757; /* Red as the main accent color */
+}
+
+/* Add hover effect on venue and details sections */
+.venue:hover,
+.details:hover {
+  background-color: #ff5757; /* Red as the main accent color */
+  color: #111;
+}
