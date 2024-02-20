@@ -46,7 +46,6 @@ footer {
   padding: 10px;
   background-color: #111;
   color: #ff5757; /* Red as the main accent color */
-  position: fixed;
   bottom: 0;
   width: 100%;
   border-top: 2px solid #ff5757; /* Red as the main accent color */
@@ -66,4 +65,75 @@ footer {
 .details:hover {
   background-color: #ff5757; /* Red as the main accent color */
   color: #111;
+}
+
+/* Add these styles to your existing CSS */
+
+.relationship-timeline {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #111;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  border: 1px solid #333;
+  border-radius: 8px;
+  position: relative;
+}
+
+.relationship-timeline h2 {
+  color: #ff5757; /* Red as the main accent color */
+}
+
+.line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 30px;
+  width: 2px;
+  background-color: #ff5757; /* Red as the main accent color */
+  margin-left: 10px;
+}
+
+.relationship-timeline ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.relationship-timeline li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.relationship-timeline img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  background-color: #ff5757; /* Red as the main accent color */
+  border-radius: 50%;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.event {
+  flex: 1;
+}
+
+.event .date {
+  color: #ff5757; /* Red as the main accent color */
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+/* Optional: Add hover effect on timeline items */
+.relationship-timeline li:hover {
+  background-color: #333;
 }
