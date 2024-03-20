@@ -58,10 +58,15 @@ footer {
 
 .countdown {
   text-align: center;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: max-content;
 }
 
 #countdown-timer {
   font-size: 2em;
+  font-family: monospace;
   color: #ff5757; /* Red as the main accent color */
 }
 
