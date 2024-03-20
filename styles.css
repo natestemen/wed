@@ -43,7 +43,7 @@ section {
 
 footer {
   text-align: center;
-  padding: 10px;
+  padding-bottom: 10px;
   background-color: #111;
   color: #ff5757; /* Red as the main accent color */
   bottom: 0;
