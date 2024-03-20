@@ -1,5 +1,10 @@
+@font-face {
+  font-family: "della";
+  src: url("Della_Respira/DellaRespira-Regular.ttf");
+}
+
 body {
-  font-family: "Courier New", monospace;
+  font-family: "della";
   margin: 0;
   padding: 0;
   background-color: #333;
@@ -136,4 +141,8 @@ footer {
 /* Optional: Add hover effect on timeline items */
 .relationship-timeline li:hover {
   background-color: #333;
+}
+
+section img {
+  width: 100%;
 }
