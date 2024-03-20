@@ -91,12 +91,11 @@ footer {
 
 .line {
   position: absolute;
-  top: 0;
+  top: 100px;
   bottom: 0;
   left: 30px;
   width: 2px;
-  background-color: #ff5757; /* Red as the main accent color */
-  margin-left: 10px;
+  background-color: #ff5757;
 }
 
 .relationship-timeline ul {
